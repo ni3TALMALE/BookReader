@@ -1,0 +1,19 @@
+Here is Design.txt file where I had designed the structure of Code.
+
+1. `Book` - represents the book being indexed, and contains the list of pages that make up the book.
+2. `Page` - represents a single page in the book, and contains the text that appears on the page.
+3. `Word` - represents a single word that appears in the book, and contains the list of pages on which the word appears.
+4. `StopWords` - represents the list of words that should be excluded from the index.
+5. `Index` - represents the index of words, and contains the list of all words in the book along with their corresponding pages.
+
+We can then define the relationships between these objects as follows:
+
+1. `Book` contains a list of `Page`s.
+2. Each `Page` contains a list of `Word`s.
+3. `StopWords` contains a list of words that should be excluded from the index.
+4. `Index` contains a list of all `Word`s in the book, along with their corresponding pages.
+
+With this object design in mind, we can start implementing the program. We can define each object as a separate class with appropriate fields and methods to implement the desired functionality.
+
+index3.txt is the output of Code
+
